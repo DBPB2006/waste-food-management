@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+ 
+    <title>Food Waste Management</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img src="c:\Users\dbpre\Downloads\food-waste-management-main\download.png"width="50px" height="30Spx"  />
+        <a class="navbar-brand" href="#"> F W M</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" target="_blank">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="available food.html" tabindex="_blank">AvailableFood</a>
+            </li>
+           
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sign-in / Sign-out
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/sign.html">Sign-in</a></li>
+                <li><a class="dropdown-item" href="#">Sign-out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="profile" onclick="menuToggle();">
+        <img src="imgs/user.png" alt="">
+    </div>
+    </nav>
+   
+    <div>
+      <div class="action">
+        
+  
+        <div class="menu">
+            <h3>
+                User Account
+                <div>
+                    Operational Team
+                </div>
+            </h3>
+            <ul>
+                <li>
+                    <a href="#">My Profile</a>
+                </li>
+                <li>
+                    <a href="#">Edit Account</a>
+                </li>
+                
+                <li>
+                    <a href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.menu');
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
+    </div>
+   
+    <div>
+      <style>
+        body {
+          background-color: #f5f5f5;
+        }
+        .form-signin {
+          max-width: 330px;
+          padding: 30px;
+          margin: 0 auto;
+        }
+        .form-signin .form-control {
+          position: relative;
+          box-sizing: border-box;
+          height: auto;
+          padding: 10px;
+          font-size: 16px;
+        }
+        .form-signin .form-control:focus {
+          z-index: 2;
+        }
+        .form-signin input[type="text"] {
+          margin-bottom: -1px;
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+        .form-signin input[type="password"] {
+          margin-bottom: 10px;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+      </style>
+    </head>
+    <body>
+      <div>
+      <form class="form-signin" action="login.php" method="post">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <label for="inputUsername" class="sr-only">Username</label>
+        <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+       <a href="available food.html" target="_blank" ><button type="button" class="btn btn-primary btn-lg">Login</button>
+
+       </a>
+      </div>
+      <!-- Footer bar-->
+      <footer class="bg-info text-light">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>Contact Us</h5>
+              <p>+917901024797</p>
+              <p>+919848246247</p>
+              <p>+917222258934</p>
+              <p class="text-light">dbpb@gmail.com</p>
+              <p class="fas fa-envelope"></p><p>abcd@gmail.com</p>
+              <p class="fas fa-phone">ghij@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+              <h5>About Us</h5>
+              <p>
+                <li>
+                  Once upon a time, there was a small town where food waste was a big problem. Every day,
+                   tons of perfectly good food was thrown away, causing environmental harm and social injustice.
+                   But one day, a group of concerned citizens decided to take action.
+                </li>
+                <li>
+                  They formed a food waste management project with the goal of reducing food waste and redistributing surplus food to those in need. 
+                  They started by partnering with local grocery stores, restaurants, and farmers markets to collect their excess food.
+                   Instead of throwing it away, they distributed the food to local food banks and shelters.
+                </li>
+              </p>
+            </div>
+            <div>
+              <h5>IMPORTANT PAGES </h5>
+              <li> Submit Your Requirements</li>
+              <li> Wikipedia </li>
+              <li> Food waste </li>
+              </div>
+            <div class="col-md-4 mt-3 ms-1 px-2 " >
+              <h5>Feedback</h5>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <!-- social media icon -->
+                <div>
+                  <div>
+                    <div class="container text-center mt-2 pt-3 " padding-bottom: 20px;>
+                      <div class="/socilimg/733635.png">
+                        <img src="c:\Users\dbpre\Downloads\food-waste-management-main\facebook.jpeg" height="40px" width="40px" alt="Facebook icon"></a>
+                        <img src="c:\Users\dbpre\Downloads\food-waste-management-main\twitter.jpeg" height="40px" width="40px" alt="Twitter icon"></a>
+                        <img src="c:\Users\dbpre\Downloads\food-waste-management-main\insta.png"   height="40px" width="40px" alt="Instagram icon"></a>
+                        
+                       
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      
+       
+  </body>
+</html>
